@@ -1,3 +1,8 @@
+PATH
+  remote: ../../gems/tailwind_form
+  specs:
+    tailwind_form (0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -283,6 +288,7 @@ DEPENDENCIES
   spring
   spring-commands-rubocop
   spring-watcher-listen (~> 2.0.0)
+  tailwind_form!
   turbolinks (~> 5)
   web-console (>= 3.3.0)
   webdrivers

@@ -1,4 +1,4 @@
-<%= form_with(model: person, local: true) do |form| %>
+<%= tailwind_form_with(model: person, local: true, class: "max-w-sm") do |form| %>
   <% if person.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(person.errors.count, "error") %> prohibited this person from being saved:</h2>
@@ -11,20 +11,9 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :first_name %>
-    <%= form.text_field :first_name %>
-  </div>
-
-  <div class="field">
-    <%= form.label :last_name %>
-    <%= form.text_field :last_name %>
-  </div>
-
-  <div class="field">
-    <%= form.label :email %>
-    <%= form.text_field :email %>
-  </div>
+  <%= form.form_group :first_name %>
+  <%= form.form_group :last_name %>
+  <%= form.form_group :email %>
 
   <div class="actions">
     <%= form.submit %>
