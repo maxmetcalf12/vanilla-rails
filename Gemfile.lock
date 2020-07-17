@@ -1,7 +1,7 @@
 PATH
   remote: ../../gems/tailwind_form
   specs:
-    tailwind_form (0.0.1)
+    tailwind_form (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -205,6 +205,8 @@ GEM
       unicode-display_width (>= 1.4.0, < 2.0)
     rubocop-ast (0.0.3)
       parser (>= 2.7.0.1)
+    rubocop-shopify (1.0.4)
+      rubocop (>= 0.85, < 0.87)
     ruby-progressbar (1.10.1)
     ruby-vips (2.0.17)
       ffi (~> 1.9)
@@ -283,6 +285,7 @@ DEPENDENCIES
   rails-controller-testing
   rspec-rails
   rubocop
+  rubocop-shopify
   sass-rails (>= 6)
   selenium-webdriver
   spring

@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -31,6 +32,7 @@ group :development do
   gem 'annotate', require: false
   gem 'rubocop', require: false
   gem 'spring-commands-rubocop', require: false
+  gem 'rubocop-shopify', require: false
 end
 
 group :test do
