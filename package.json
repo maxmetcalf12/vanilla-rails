@@ -9,7 +9,7 @@
     "@rails/webpacker": "5.2.1",
     "alpinejs": "^2.4.1",
     "autoprefixer": "^9",
-    "postcss": "^7",
+    "postcss": "^8",
     "tailwindcss": "^2.0.1-compat",
     "turbolinks": "^5.2.0"
   },
